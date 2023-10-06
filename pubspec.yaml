@@ -1,0 +1,64 @@
+name: divisa_calculator
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+# Dependencies
+dependencies:
+  country_code_picker: ^3.0.0
+  cupertino_icons: ^1.0.2
+  file_picker: ^5.2.11
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^9.4.0
+  flutter_localization: ^0.1.11
+  fluttertoast: ^8.2.1
+  get: ^4.6.5
+  http: ^0.13.5
+  image_cropper: ^3.0.3
+  image_picker: ^0.8.7+4
+  intl: ^0.18.0
+  path_provider: ^2.0.15
+  rxdart: ^0.27.7
+  sembast: ^3.4.5
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/images/onboarding/
+    # images
+    - assets/images/icon.png
+    - assets/images/icon_trans.png
+    - assets/images/splash.png
+    # files
+    - assets/files/
+    # onboarding
+    - assets/images/onboarding/
+    - assets/images/onboarding/1.png
+    - assets/images/onboarding/2.png
+    - assets/images/onboarding/3.png
+    - assets/images/onboarding/4.png
+    - assets/images/onboarding/5.png
+    - assets/images/onboarding/6.png
+    - assets/images/onboarding/7.png
+
+#  fonts:
+#    - family: CustomIcons
+#      fonts:
+#        - asset: assets/fonts/CustomIcons.ttf
